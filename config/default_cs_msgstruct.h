@@ -56,7 +56,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_NOOP_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -66,7 +70,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_RESET_COUNTERS_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -76,7 +84,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #BACKGROUND_CYCLE_MID
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -86,7 +98,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_DISABLE_ALL_CS_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -96,7 +112,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_ENABLE_ALL_CS_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -106,7 +126,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_DISABLE_CFE_CORE_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -116,7 +140,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_ENABLE_CFE_CORE_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -126,7 +154,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_DISABLE_OS_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -136,7 +168,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_ENABLE_OS_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -146,7 +182,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_REPORT_BASELINE_CFE_CORE_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -156,7 +196,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_REPORT_BASELINE_OS_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -166,7 +210,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_RECOMPUTE_BASELINE_CFE_CORE_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -176,7 +224,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_RECOMPUTE_BASELINE_OS_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -186,7 +238,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_CANCEL_ONE_SHOT_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -196,7 +252,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_DISABLE_APPS_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -206,7 +266,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_ENABLE_APPS_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -216,7 +280,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_DISABLE_EEPROM_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -226,7 +294,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_ENABLE_EEPROM_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -236,7 +308,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_DISABLE_MEMORY_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -246,7 +322,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_ENABLE_MEMORY_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -256,7 +336,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_DISABLE_TABLES_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -266,7 +350,11 @@ typedef struct
 /**
  * \brief No arguments command data type
  *
- *  For command details see #CS_ENABLE_TABLES_CC
+ *  For command details see #CS_NOOP_CC #CS_RESET_COUNTERS_CC, #CS_ENABLE_ALL_CS_CC,
+ *  #CS_DISABLE_ALL_CS_CC, #CS_ENABLE_CFE_CORE_CC, #CS_DISABLE_CFE_CORE_CC, #CS_ENABLE_OS_CC,
+ *  #CS_DISABLE_OS_CC, #CS_ENABLE_EEPROM_CC, #CS_DISABLE_EEPROM_CC, #CS_ENABLE_MEMORY_CC,
+ *  #CS_DISABLE_MEMORY_CC, #CS_ENABLE_TABLES_CC, #CS_DISABLE_TABLES_CC
+ *  #CS_ENABLE_APPS_CC, #CS_DISABLE_APPS_CC, #CS_CANCEL_ONE_SHOT_CC
  */
 typedef struct
 {
@@ -276,7 +364,7 @@ typedef struct
 /**
  * \brief Get entry ID command
  *
- *  For command details see #CS_GET_ENTRY_ID_EEPROM_CC
+ *  For command details see CS_GET_ENTRY_ID_EEPROM_CC, #CS_GET_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -287,7 +375,7 @@ typedef struct
 /**
  * \brief Get entry ID command
  *
- *  For command details see #CS_GET_ENTRY_ID_MEMORY_CC
+ *  For command details see CS_GET_ENTRY_ID_EEPROM_CC, #CS_GET_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -298,7 +386,8 @@ typedef struct
 /**
  * \brief Command type for commands using Memory or EEPROM tables
  *
- *  For command details see #CS_REPORT_BASELINE_ENTRY_ID_EEPROM_CC
+ *  For command details see #CS_ENABLE_ENTRY_ID_EEPROM_CC, #CS_DISABLE_ENTRY_ID_EEPROM_CC,
+ * #CS_ENABLE_ENTRY_ID_MEMORY_CC, #CS_DISABLE_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -309,7 +398,8 @@ typedef struct
 /**
  * \brief Command type for commands using Memory or EEPROM tables
  *
- *  For command details see #CS_DISABLE_ENTRY_ID_EEPROM_CC
+ *  For command details see #CS_ENABLE_ENTRY_ID_EEPROM_CC, #CS_DISABLE_ENTRY_ID_EEPROM_CC,
+ * #CS_ENABLE_ENTRY_ID_MEMORY_CC, #CS_DISABLE_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -320,7 +410,8 @@ typedef struct
 /**
  * \brief Command type for commands using Memory or EEPROM tables
  *
- *  For command details see #CS_RECOMPUTE_BASELINE_EEPROM_CC
+ *  For command details see #CS_ENABLE_ENTRY_ID_EEPROM_CC, #CS_DISABLE_ENTRY_ID_EEPROM_CC,
+ * #CS_ENABLE_ENTRY_ID_MEMORY_CC, #CS_DISABLE_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -331,7 +422,8 @@ typedef struct
 /**
  * \brief Command type for commands using Memory or EEPROM tables
  *
- *  For command details see #CS_ENABLE_ENTRY_ID_EEPROM_CC
+ *  For command details see #CS_ENABLE_ENTRY_ID_EEPROM_CC, #CS_DISABLE_ENTRY_ID_EEPROM_CC,
+ * #CS_ENABLE_ENTRY_ID_MEMORY_CC, #CS_DISABLE_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -342,7 +434,8 @@ typedef struct
 /**
  * \brief Command type for commands using Memory or EEPROM tables
  *
- *  For command details see #CS_REPORT_BASELINE_ENTRY_ID_MEMORY_CC
+ *  For command details see #CS_ENABLE_ENTRY_ID_EEPROM_CC, #CS_DISABLE_ENTRY_ID_EEPROM_CC,
+ * #CS_ENABLE_ENTRY_ID_MEMORY_CC, #CS_DISABLE_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -353,7 +446,8 @@ typedef struct
 /**
  * \brief Command type for commands using Memory or EEPROM tables
  *
- *  For command details see #CS_DISABLE_ENTRY_ID_MEMORY_CC
+ *  For command details see #CS_ENABLE_ENTRY_ID_EEPROM_CC, #CS_DISABLE_ENTRY_ID_EEPROM_CC,
+ * #CS_ENABLE_ENTRY_ID_MEMORY_CC, #CS_DISABLE_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -364,7 +458,8 @@ typedef struct
 /**
  * \brief Command type for commands using Memory or EEPROM tables
  *
- *  For command details see #CS_RECOMPUTE_BASELINE_MEMORY_CC
+ *  For command details see #CS_ENABLE_ENTRY_ID_EEPROM_CC, #CS_DISABLE_ENTRY_ID_EEPROM_CC,
+ * #CS_ENABLE_ENTRY_ID_MEMORY_CC, #CS_DISABLE_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -375,7 +470,8 @@ typedef struct
 /**
  * \brief Command type for commands using Memory or EEPROM tables
  *
- *  For command details see #CS_ENABLE_ENTRY_ID_MEMORY_CC
+ *  For command details see #CS_ENABLE_ENTRY_ID_EEPROM_CC, #CS_DISABLE_ENTRY_ID_EEPROM_CC,
+ * #CS_ENABLE_ENTRY_ID_MEMORY_CC, #CS_DISABLE_ENTRY_ID_MEMORY_CC
  */
 typedef struct
 {
@@ -386,7 +482,8 @@ typedef struct
 /**
  * \brief Command type for commanding by table name
  *
- *  For command details see #CS_REPORT_BASELINE_TABLE_CC
+ *  For command details see #CS_ENABLE_NAME_TABLE_CC, #CS_DISABLE_NAME_TABLE_CC,
+ *  #CS_RECOMPUTE_BASELINE_TABLE_CC, #CS_REPORT_BASELINE_TABLE_CC
  */
 typedef struct
 {
@@ -397,7 +494,8 @@ typedef struct
 /**
  * \brief Command type for commanding by table name
  *
- *  For command details see #CS_RECOMPUTE_BASELINE_TABLE_CC
+ *  For command details see #CS_ENABLE_NAME_TABLE_CC, #CS_DISABLE_NAME_TABLE_CC,
+ *  #CS_RECOMPUTE_BASELINE_TABLE_CC, #CS_REPORT_BASELINE_TABLE_CC
  */
 typedef struct
 {
@@ -408,7 +506,8 @@ typedef struct
 /**
  * \brief Command type for commanding by table name
  *
- *  For command details see #CS_DISABLE_NAME_TABLE_CC
+ *  For command details see #CS_ENABLE_NAME_TABLE_CC, #CS_DISABLE_NAME_TABLE_CC,
+ *  #CS_RECOMPUTE_BASELINE_TABLE_CC, #CS_REPORT_BASELINE_TABLE_CC
  */
 typedef struct
 {
@@ -419,7 +518,8 @@ typedef struct
 /**
  * \brief Command type for commanding by table name
  *
- *  For command details see #CS_ENABLE_NAME_TABLE_CC
+ *  For command details see #CS_ENABLE_NAME_TABLE_CC, #CS_DISABLE_NAME_TABLE_CC,
+ *  #CS_RECOMPUTE_BASELINE_TABLE_CC, #CS_REPORT_BASELINE_TABLE_CC
  */
 typedef struct
 {
@@ -430,7 +530,8 @@ typedef struct
 /**
  * \brief Command type for commanding by app name
  *
- *  For command details see #CS_REPORT_BASELINE_APP_CC
+ *  For command details see e #CS_ENABLE_NAME_APP_CC, #CS_DISABLE_NAME_APP_CC,
+ *  #CS_RECOMPUTE_BASELINE_APP_CC, #CS_REPORT_BASELINE_APP_CC
  */
 typedef struct
 {
@@ -441,7 +542,8 @@ typedef struct
 /**
  * \brief Command type for commanding by app name
  *
- *  For command details see #CS_RECOMPUTE_BASELINE_APP_CC
+ *  For command details see e #CS_ENABLE_NAME_APP_CC, #CS_DISABLE_NAME_APP_CC,
+ *  #CS_RECOMPUTE_BASELINE_APP_CC, #CS_REPORT_BASELINE_APP_CC
  */
 typedef struct
 {
@@ -452,7 +554,8 @@ typedef struct
 /**
  * \brief Command type for commanding by app name
  *
- *  For command details see #CS_DISABLE_NAME_APP_CC
+ *  For command details see e #CS_ENABLE_NAME_APP_CC, #CS_DISABLE_NAME_APP_CC,
+ *  #CS_RECOMPUTE_BASELINE_APP_CC, #CS_REPORT_BASELINE_APP_CC
  */
 typedef struct
 {
@@ -463,7 +566,8 @@ typedef struct
 /**
  * \brief Command type for commanding by app name
  *
- *  For command details see #CS_ENABLE_NAME_APP_CC
+ *  For command details see e #CS_ENABLE_NAME_APP_CC, #CS_DISABLE_NAME_APP_CC,
+ *  #CS_RECOMPUTE_BASELINE_APP_CC, #CS_REPORT_BASELINE_APP_CC
  */
 typedef struct
 {
